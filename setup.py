@@ -22,14 +22,22 @@ def read_requirements():
 
 setup(
     name="llama_models",
-    version="0.0.5",
+    version="0.1.0",
     author="Meta Llama",
     author_email="llama-oss@meta.com",
     description="Llama models",
+    entry_points={
+        "console_scripts": [
+            "multimodal_example_chat_completion = llama_models.scripts.multimodal_example_chat_completion:main",
+            "multimodal_example_text_completion = llama_models.scripts.multimodal_example_text_completion:main",
+            "example_chat_completion = llama_models.scripts.example_chat_completion:main",
+            "example_text_completion = llama_models.scripts.example_text_completion:main",
+        ]
+    },
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/meta-llama/llama-models",
-    package_dir={"llama_models": "models"},
+    package_dir={"llama_models": "llama_models"},
     classifiers=[],
     python_requires=">=3.10",
     install_requires=read_requirements(),
