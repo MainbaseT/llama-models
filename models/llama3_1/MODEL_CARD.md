@@ -85,7 +85,7 @@ The Meta Llama 3.1 collection of multilingual large language models (LLMs) is a 
 
 **License:** A custom commercial license, the Llama 3.1 Community License, is available at: [https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE](https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE)
 
-Where to send questions or comments about the model Instructions on how to provide feedback or comments on the model can be found in the model [README](https://github.com/meta-llama/llama3). For more technical information about generation parameters and recipes for how to use Llama 3.1 in applications, please go [here](https://github.com/meta-llama/llama-recipes).
+**Feedback:** Instructions on how to provide feedback or comments on the model can be found in the Llama Models [README](https://github.com/meta-llama/llama-models/blob/main/README.md). For more technical information about generation parameters and recipes for how to use Llama 3.1 in applications, please go [here](https://github.com/meta-llama/llama-recipes).
 
 
 ## Intended Use
@@ -573,7 +573,7 @@ In this section, we report the results for Llama 3.1 models on standard automati
    </td>
    <td>39.5
    </td>
-   <td>41.7
+   <td>46.7
    </td>
    <td>50.7
    </td>
